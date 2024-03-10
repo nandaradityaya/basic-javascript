@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: salmon;
+        text-align: center;
+      }
+      .nama {
+        font-family: arial;
+        font-size: 80px;
+        color: white;
+      }
+      .nama span {
+        display: inline-block; /* pakein display inline-block supaya text arkhannya berubah menjadi block, klo ga gini dia gabakal jalan animasinya */
+        transition: 0.3s;
+        cursor: pointer;
+      }
+      .nama span:hover {
+        transform: scale(2) translateY(-20px); /*transform scale supaya tulisannya nonjol, translateY supaya huruf2nya transform ke arah atas pas di hover*/
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Nanda</li>
+      <li>Paul</li>
+      <li>Ronny</li>
+    </ul>
+
+    <h1 class="nama">ARKHAN</h1>
+    <script src="script.js"></script>
+  </body>
+</html>

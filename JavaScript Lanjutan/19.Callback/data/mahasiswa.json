@@ -1,0 +1,23 @@
+[
+  {
+    "nama": "Nanda Raditya",
+    "nim": "20190803089",
+    "email": "nandaraditya80@gmail.com",
+    "jurusan": "Sistem Informasi",
+    "idDosenWali": 1
+  },
+  {
+    "nama": "Paul",
+    "nim": "20190803088",
+    "email": "paul@gmail.com",
+    "jurusan": "Teknik Informatika",
+    "idDosenWali": 2
+  },
+  {
+    "nama": "Ronny",
+    "nim": "20190803087",
+    "email": "ronny@gmail.com",
+    "jurusan": "Teknik Industri",
+    "idDosenWali": 3
+  }
+]

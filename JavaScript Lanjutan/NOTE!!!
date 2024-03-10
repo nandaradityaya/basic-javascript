@@ -1,0 +1,19 @@
+NOTE: klo function expression di simpen dulu di dalem variable, klo fucntion declaration dia langsung di buat tanpa bikin variable. dan function declaration kena hosting klo exspression ga kena
+
+NOTE: Arrow function tidak memiliki konsep this
+
+NOTE: Ga semua function bisa di jadiin arrow function, tergantung kebutuhan
+
+Pengertian callback
+- Function yang dikirimkan sebagai parameter pada function yang lain.
+- Function yang dieksekusi setelah fungsi lain selesai di jalankan.
+
+Fetch adalah sebuah method pada API javascript utk mengambil resources dari jaringan, dan mengembalikan promise yang selesai (fullfilled) ketika ada response yang tersedia
+bisa pake then, catch, dan finally. yg dikembalikan adalah response
+cara nulis fetch : fetch(resources, init);
+resourcesnya itu URL atau Object Request
+init untuk konfigurasi tambahan pada sebuah request berbentuk Object
+tapi klo init itu optional jadi ga selalu di pake
+
+response itu hasil dari fetch yang berupa promise, di dalamnya itu ada 2 yaitu property dan method
+klo pake method json dia nanti klo resolve bentuk promisenya berubah jadi object

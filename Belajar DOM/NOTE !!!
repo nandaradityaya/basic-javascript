@@ -1,0 +1,20 @@
+// !!! CATATAN !!! //
+//element.classList.add() -> untuk menambah class
+//element.classList.remove() -> untuk menghapus class
+//element.classList.toggle() -> untuk menambah class jika belum ada, dan untuk menghapus class jika sudah ada
+//element.classList.item() -> untuk mengetahui nama class dalam suatu element. contoh: p2.classList.item(2)
+//element.classList.contains() -> untuk nanya apakah ada nama class tersebut. jawabannya true or false
+//element.classList.replace() -> untuk mengganti class. contoh: p2.classList.replace('ryzen', 'intel') -> artinya replace ryzen jadi intel
+
+// MANIPULASI NODE //
+// document.createElement()
+// document.createTextNode()
+// node.appendChild()
+// node.insertBefore()
+// parentNode.removeChild()
+// parentNode.replaceChild()
+
+Events
+
+eventHandler akan menimpa function yang di atasnya, jadi yg ke pake cuma function paling terakhir
+addEventListener akan memakai semua function yang ada, jadi setiap function yang ada akan berjalan jika memakai addEventListener
